@@ -1,0 +1,170 @@
+@media only screen and (max-width: 1200px){
+    .breadcrumbContent>.col>nav>ol>li>a,
+    .title-comm .title-holder{
+        font-size: 15px;
+    }
+    .headerContent>.col>h4{
+        font-size: 17px;
+    }
+    
+    .nameMovie,.rateMovie,.viewNumber{
+        min-width: 100%;
+    }
+    .nameMovie>h5{
+        font-size: 17px;
+    }
+    .nameMovie>h6,.viewNumber>p,
+    .bodyContent>.col-5>.row>.col>b,
+    .bodyContent>.col-5>.row>.col,
+    #nz-div h3.tde,.calendar>h6,
+    .calendar>.row>.col>b,
+    .calendar>.row>.col>button,
+    .movieRelated>.col>h5,.viewAll>.col>button,
+    .descriptionMovie>.col>h6,
+    .voteMovie>.col>h6,.descriptionMovie>.col>p,
+    .account>b,.contentDescription>p,.youVote>.col>label{
+        font-size: 15px;
+    }
+    .viewAll{
+        transform: translateY(-2rem);
+    }
+    .upTime>i,.rateButton {
+        font-size: 13px;
+    }
+    .youRate{
+        transform: translateX(-15rem);
+    }
+    .movies>.col-2>.imgContent>a>img {
+        height: 14rem;
+    }
+}
+@media only screen and (max-width: 991px){
+    .bodyContent>.col-5{
+        max-width: 32%;
+    }
+    .bodyContent>.col-4{
+        min-width: 43%;
+    }
+    .breadcrumbContent>.col>nav{
+        width: 100%;
+    }
+    .movies>.col-2{
+        min-width: 25%;
+    }
+    .youRate{
+        transform: translateX(-25rem);
+    }
+    .desAndrate>.col-7{
+        min-width: 100%;
+    }
+    .calendar{
+        min-width: 60%;
+        margin-top: 2rem;
+    }
+}
+@media only screen and (max-width: 767px){
+    .bodyContent>.col-3{
+        min-width: 40%;
+    }
+    .bodyContent>.col-5{
+        max-width: 50%;
+    }
+    .bodyContent>.col-4{
+        min-width: 80%;
+    }
+    .movies>.col-2{
+        min-width: 33%;
+    }
+    .youRate{
+        transform: translateX(-8rem);
+    }
+    .calendar{
+        min-width: 80%;
+    }
+}
+@media only screen and (max-width: 580px){
+    .movies{
+        justify-content: center;
+    }
+    .movies>.col-2{
+        min-width: 40%;
+    }
+}
+@media only screen and (max-width: 480px){
+    .bodyContent>.col-3{
+        min-width: 40%;
+    }
+    .bodyContent>.col-5{
+        min-width: 60%;
+    }
+    .bodyContent>.col-4{
+        min-width: 80%;
+    }
+    .breadcrumbContent>.col>nav>ol>li>a,
+    .title-comm .title-holder{
+        font-size: 13px;
+    }
+    .headerContent>.col>h4{
+        font-size: 15px;
+    }
+    .nameMovie>h5{
+        font-size: 15px;
+    }
+    .nameMovie>h6,.viewNumber>p,
+    .bodyContent>.col-5>.row>.col>b,
+    .bodyContent>.col-5>.row>.col,
+    #nz-div h3.tde,.calendar>h6,
+    .calendar>.row>.col>b,
+    .calendar>.row>.col>button,
+    .movieRelated>.col>h5,.viewAll>.col>button,
+    .descriptionMovie>.col>h6,
+    .voteMovie>.col>h6,.descriptionMovie>.col>p,
+    .account>b,.contentDescription>p,.youVote>.col>label{
+        font-size: 13px;
+    }
+    .viewAll{
+        transform: translateY(-2rem);
+    }
+    .viewDetail,.buyTicket,.upTime>i,.rateButton {
+        font-size: 12px;
+    }
+    .movies{
+        justify-content: center;
+    }
+    .movies>.col-2{
+        min-width: 50%;
+        padding-right: 1px;
+        padding-left: 1px;
+    }
+    .calendar{
+        min-width: 100%;
+    }
+    .youRate{
+        transform: translateX(0rem);
+    }
+}
+@media only screen and (max-width: 380px){
+    .movies>.col-2{
+        min-width: 50%;
+    }
+    td>.rateMovie{
+        min-width: 8rem;
+    }
+    .account{
+         min-width: 10rem;
+    }
+}
+@media only screen and (max-width: 320px){
+    .bodyContent{
+        justify-content: center;
+    }
+    .bodyContent>.col-3{
+        min-width: 50%;
+    }
+    .bodyContent>.col-5{
+        min-width: 100%;
+    }
+    .bodyContent>.col-4{
+        min-width: 100%;
+    }
+}

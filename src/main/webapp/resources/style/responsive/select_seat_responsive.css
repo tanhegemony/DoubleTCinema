@@ -1,0 +1,63 @@
+@media only screen and (max-width: 1200px){
+    .breadcrumbContent>.col>nav>ol>li>a,
+    .contentTicketMovie>.table>tbody>.element>th,
+    .title-comm .title-holder,.chooseSeat>p,
+    .noteSeat>.col-3>i,
+    .main>b,.items,.backBooking,.nextBooking
+    {
+        font-size: 15px;
+    }
+    .headerContent>.col>h4{
+        font-size: 17px;
+    }
+    .ticketInfo{
+        max-width: 35%;
+    }
+    .contentTicketMovie{
+        min-width: 100%;
+    }
+    .imageTicketMovie{
+        min-width: 50%;
+    }
+}
+@media only screen and (max-width: 991px){
+    .chooseSeat{
+        min-width: 100%;
+    }
+    .ticketInfo{
+        min-width: 50%;
+        
+    }
+    .bodyChooseSeat{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 767px){
+    .choose{
+        width: 39rem;
+    }
+    .ticketInfo{
+        min-width: 60%;
+        
+    }
+}
+@media only screen and (max-width: 480px){
+    .breadcrumbContent>.col>nav>ol>li>a,
+    .contentTicketMovie>.table>tbody>.element>th,
+    .title-comm .title-holder,.chooseSeat>p,
+    .noteSeat>.col-3>i,
+    .main>b,.items,.backBooking,.nextBooking{
+        font-size: 13px;
+    }
+    .headerContent>.col>h4{
+        font-size: 15px;
+    }
+    
+    .ticketInfo{
+        min-width: 80%;
+    }
+    .noteSeat>.col-3{
+        min-width: 50%;
+        margin-bottom: 0.5rem;
+    }
+}

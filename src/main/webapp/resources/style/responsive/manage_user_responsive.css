@@ -1,0 +1,129 @@
+@media only screen and (max-width: 1200px) {
+    .breadcrumbContent>.col>nav>ol>li>a,
+    .content1>nav>.nav-tabs>form>button,
+    .updateButton>.col>button,
+    .depositAccountBanking,
+    .connectionAccountBanking,
+    .deleteAccountBanking,
+    .userInfo>.col>form>.row>.col-6>.form-group>label,
+    .userInfo>.col>form>.row>.col-6>.form-group>input,
+    .userInfo>.col>form>.row>.col-6>.row>.col>.form-group>label,
+    .filterBooking>.col-3>.form-group>label,
+    .tableBookingDetail>.col>.table>thead,
+    .tableBooking>.col>.table>thead,
+    .tableBookingDetail>.col>.table>tbody,
+    .tableBooking>.col>.table>tbody,
+    .email>a,
+    .phone>a,
+    .infoTicket>.nameMovie>span,
+    .infoTicket>.element>span,
+    .debitCard>p,
+    .exAndCardName>h6,
+    .addAccountBanking>form>.form-group>label,
+    .addAccountBanking>h6,
+    .addAccountBanking>h6>span {
+        font-size: 15px;
+    }
+
+    .headerContent>.col>h4,
+    .cardNumber>h3,
+    .addAccountBanking>h5 {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .imgMovieTicket{
+        text-align: center;
+        min-width: 70%;
+    }
+    .infoTicket{
+        text-align: center;
+        min-width: 100%;
+    }
+    .cardAccountBanking{
+        min-width: 50%;
+    }
+    .deduceIcon{
+        display: none;
+    }
+    .addAccountBanking{
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .imgAccount,.infoCustomer{
+        min-width: 100%;
+    }
+    .filterBooking>.col-3{
+        min-width: 50%;
+    }
+    .tableBookingDetail>.col,.tableBooking>.col{
+        overflow-x: auto;
+    }
+    .foodInfo,.seat,.ticketInfo,.totalPriceFoods,.promotion,
+    .emailCus,.phoneCus{
+        min-width: 10rem;
+    }
+    .bookingDate,.subtotal,.status{
+        min-width: 10rem;
+    }
+    .infomationTicket{
+        min-width: 15rem;
+    }
+    .cardAccountBanking{
+        min-width: 60%;
+    }
+    .addAccountBanking{
+        min-width: 100%;
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .breadcrumbContent>.col>nav>ol>li>a,
+    .content1>nav>.nav-tabs>form>button,
+    .updateButton>.col>button,
+    .depositAccountBanking,
+    .connectionAccountBanking,
+    .deleteAccountBanking,
+    .userInfo>.col>form>.row>.col-6>.form-group>label,
+    .userInfo>.col>form>.row>.col-6>.form-group>input,
+    .userInfo>.col>form>.row>.col-6>.row>.col>.form-group>label,
+    .filterBooking>.col-3>.form-group>label,
+    .tableBookingDetail>.col>.table>thead,
+    .tableBooking>.col>.table>thead,
+    .tableBookingDetail>.col>.table>tbody,
+    .tableBooking>.col>.table>tbody,
+    .email>a,
+    .phone>a,
+    .infoTicket>.nameMovie>span,
+    .infoTicket>.element>span,
+    .debitCard>p,
+    .exAndCardName>h6,
+    .addAccountBanking>form>.form-group>label,
+    .addAccountBanking>h6,
+    .addAccountBanking>h6>span  {
+        font-size: 13px;
+    }
+
+    .headerContent>.col>h4,
+    .cardNumber>h3,
+    .addAccountBanking>h5 {
+        font-size: 15px;
+    }
+    .cardAccountBanking{
+        min-width: 75%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .cardAccountBanking{
+        min-width: 90%;
+    }
+    .filterBooking>.col-3{
+        min-width: 100%;
+    }
+}

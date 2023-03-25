@@ -1,0 +1,31 @@
+
+.header>.row>.col-7>form>.form-inline>input{
+    background-color: #001232;
+    color: white;
+    width: 94%;
+    border: 1px solid #032055;
+}
+::placeholder {
+    color: gray !important;
+}
+.header>.row>.col-7>form>.form-inline>button{
+    transform: translateX(-3rem);
+}
+.menu1>.row>.col>.nav{
+    justify-content: center;
+}
+.menu1{
+    margin-top: 1.5rem;
+}
+.menu1>.row>.col>.nav>li>a{
+    color: white;
+}
+.menu1>.row>.col>.nav>li>.dropdown-menu>a{
+    display: inline;
+}
+.userLogin>.dropdown>button{
+    color: white;
+}
+.userLogin>.dropdown>button>img{
+    width: 1.5rem;height: 1.5rem;border-radius: 100%;
+}

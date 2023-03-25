@@ -1,0 +1,55 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #001232;
+}
+.content1>.col-4>p{
+    color: white;
+    font-size: 20px;
+}
+.sortBy>form>.form-inline>label,.displayBy>form>.form-inline>label{
+    color: white;
+}
+.sortBy>form>.form-inline>select,.displayBy>form>.form-inline>select{
+    background-color: #032055;
+    color: white;
+    border: 1px solid #032055;
+}
+
+.name{
+    font-size: 13px;
+}
+.elementOther{
+    font-size: 12px;
+}
+
+.movies>.col-4 .imgContent>a>img,
+.movies>.col-3 .imgContent>a>img {
+    height: 13rem;
+    width: 9rem;
+    transition: 0.4s;
+}
+
+.movies>.col-4 .imgContent:hover img,
+.movies>.col-3 .imgContent:hover img {
+    opacity: 0.5;
+    transform:scale(1.1,1.1)
+    
+}
+.movies>.col-4>.card-body>a:hover h5,
+.movies>.col-3>.card-body>a:hover h5{
+    color: #31d7a9;
+}
+
+
+.viewMore>.col>h5{
+    color: white;
+    text-decoration: underline;
+}
+
+.movies>.col-3>.card-body>a{
+    color: white;
+    text-decoration: none;
+}
+.movies>.col-3>.card-body>a>h5{
+    font-size: 15px;
+}

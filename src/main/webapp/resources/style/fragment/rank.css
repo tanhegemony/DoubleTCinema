@@ -1,0 +1,33 @@
+.rank{
+    position: fixed;
+    z-index: 1;
+    right: 0px;
+    top: 15rem; 
+    border: 2px solid #032055;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+.nameRank{
+    border-radius: 10px 0px 0px 0px;
+    padding: 5px 5px 5px 5px;
+    background-color: #001232;
+    text-align: center;
+}
+.nameRank>.col>button{
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.bodyRank>.col>button:hover{
+    color: #31d7a9;
+}
+.show .rank>.row{
+    display: none;
+}
+.nameRankLess480px{
+    display: none;
+}

@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1200px){
+    .bodyRank>.col>button{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .nameRank>.col>button{
+        font-size: 10px;
+    }
+    .nameRank{
+        display: none;
+    }
+    .bodyRank>.col>button{
+        font-size: 13px;
+    }
+    .nameRankLess480px{
+        display: block;
+    }
+}

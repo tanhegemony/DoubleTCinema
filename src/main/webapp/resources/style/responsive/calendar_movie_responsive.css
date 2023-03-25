@@ -1,0 +1,103 @@
+@media only screen and (max-width: 1200px) {
+
+    .chooseCalendar>.col>button,
+    .content>.col-6>a>b,
+    .content>.col-6>.row>.col-8>i,
+    .content>.col-6>.row>.col-8>button,
+    .breadcrumbContent>.col>nav>ol>li>a ,
+    .calendarMovie>.col>ul>li>form>button,
+    .filmFollow>.col>a>b,.contentCinemaFollow>.col-6>a>b,
+    .filmFollow>.col>.row>.col-10>i,
+    .contentCinemaFollow>.col-6>.row>.col-8>i,
+    .filmFollow>.col>.row>.col-10>button,
+    .contentCinemaFollow>.col-6>.row>.col-8>button,
+    .cinemaFollow>.col-4>button,
+    .address,
+    .cinemaFollow>.col-4>button>.cinema>a,
+    #nz-div h3.tde,
+    .cinema>h5{
+        font-size: 15px;
+    }
+
+    .header>.col>p {
+        font-size: 17px;
+    }
+
+    .chooseCalendar>.col>button,
+    .content>.col-6>.row>.col-8>button {
+        margin-bottom: 0.5rem;
+    }
+    .content>.col-6>.row>.col-4>a>img,.filmFollow>.col>.row>.col-2>a>img,
+    .contentCinemaFollow>.col-6>.row>.col-4>a>img,.chooseFilm>.col-2>a>img{
+        height: 11rem;
+        width: 8rem;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .chooseFilm>.col-2{
+        min-width: 25%;
+    }
+    .filmFollow>.col>.row>.col-2{
+        min-width: 30%;
+    }
+    .filmFollow>.col>.row>.col-10{
+        max-width: 70%;
+    }
+    .content>.col-6,.contentCinemaFollow>.col-6{
+        min-width: 100%;
+    }
+    .cinemaFollow>.col-4{
+        min-width: 50%;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .chooseCalendar>.col>button,
+    .content>.col-6>a>b,
+    .content>.col-6>.row>.col-8>i,
+    .content>.col-6>.row>.col-8>button,
+    .breadcrumbContent>.col>nav>ol>li>a ,
+    .calendarMovie>.col>ul>li>form>button,
+    .filmFollow>.col>a>b,.contentCinemaFollow>.col-6>a>b,
+    .filmFollow>.col>.row>.col-10>i,
+    .contentCinemaFollow>.col-6>.row>.col-8>i,
+    .filmFollow>.col>.row>.col-10>button,
+    .contentCinemaFollow>.col-6>.row>.col-8>button,
+    .cinemaFollow>.col-4>button,
+    .address,
+    .cinemaFollow>.col-4>button>.cinema>a,
+    #nz-div h3.tde,
+    .cinema>h5{
+        font-size: 13px;
+    }
+
+    .header>.col>p {
+        font-size: 15px;
+    }
+    .chooseFilm{
+        justify-content: center;
+    }
+    .chooseFilm>.col-2{
+        min-width: 30%;
+    }
+    .filmFollow>.col>.row>.col-2{
+        min-width: 40%;
+    }
+    .filmFollow>.col>.row>.col-10{
+        min-width: 100%;
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .chooseFilm>.col-2{
+        min-width: 45%;
+    }
+    .filmFollow>.col>.row>.col-2{
+        min-width: 50%;
+    }
+}

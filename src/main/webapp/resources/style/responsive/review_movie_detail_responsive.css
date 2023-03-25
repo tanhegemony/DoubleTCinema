@@ -1,0 +1,84 @@
+@media only screen and (max-width: 1200px){
+    .breadcrumbContent>.col>nav>ol>li>a,
+    .title-comm .title-holder,
+    .rateMovie,.like>button,
+    .view>p,.youVote>.col>label,
+    .youVote>.col>button,
+    .descriptionPreview>.col>p,
+    .reviewOther>.col>p>a,
+    .account>b,.contentDescription>p{
+        font-size: 15px;
+    }
+    .infoPreview>h5,
+    .reviewOther>.col>h5{
+        font-size: 17px;
+    }
+    .upTime>i{
+        font-size: 13px;
+    }
+    .infoPreview{
+        transform: translateY(-1.5rem);
+    }
+    
+}
+@media only screen and (max-width: 991px){
+    .imgPreview,.infoPreview{
+        min-width: 50%;
+    }
+    .youVote1{
+        display: none;
+    }
+    .vote1{
+        display: inline-block;
+    }
+    .preview1{
+        min-width: 100%;
+    }
+    .preview2{
+        min-width: 60%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .movies>.col-6 .imgContent>a>img{
+        height: 12rem;
+    }
+}
+@media only screen and (max-width: 480px){
+    .infoPreview{
+        min-width: 100%;
+    }
+    .imgPreview{
+        min-width: 80%;
+    }
+    .breadcrumbContent>.col>nav>ol>li>a,
+    .title-comm .title-holder,
+    .rateMovie,.like>button,
+    .view>p,.youVote>.col>label,
+    .youVote>.col>button,
+    .descriptionPreview>.col>p,
+    .reviewOther>.col>p>a,
+    .account>b,.contentDescription>p{
+        font-size: 13px;
+    }
+    .infoPreview>h5,
+    .reviewOther>.col>h5{
+        font-size: 15px;
+    }
+    .upTime>i{
+        font-size: 12px;
+    }
+    .preview2{
+        min-width: 90%;
+    }
+    .movies>.col-6 .imgContent>a>img{
+        height: 13rem;
+    }
+}
+@media only screen and (max-width: 320px){
+    .imgPreview{
+        min-width: 100%;
+    }
+    .preview2{
+        min-width: 100%;
+    }
+}

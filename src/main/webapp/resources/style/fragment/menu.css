@@ -1,0 +1,82 @@
+.menu>.nav{
+    background-color: #032055; 
+    padding: 5px 5px 5px 5px;
+}
+/* display submenu */
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #032055;
+    width: 200px;
+    z-index: 1;
+    text-align: center;
+
+}
+
+.submenu>.row>.col>a {
+    float: none;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.menu>.nav>li>.dropdown>a:hover {
+    color: white;
+}
+
+.submenu>.row>.col>a:hover {
+    color: #31d7a9;
+    font-weight: bolder;
+}
+
+.dropdown:hover>.submenu {
+    display: block;
+}
+
+.menu>.nav>li {
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+.menu>.nav>li>a,
+.menu>.nav>li>.dropdown>a {
+    color: white;
+}
+
+
+.menu>.nav>li>.nav-link:hover{
+    color: white;
+}
+
+.film>.dropdown>.submenu{
+    width: 800px;
+    transform: translateX(-22rem);
+}
+.film>.dropdown>.submenu>.row>.col>a>h6{
+    font-size: 15px; 
+    font-weight: bolder;
+}
+.less767px{
+    display: none;
+}
+
+.movieMenu>.col-3 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.movieMenu>.col-3>.card-body>h5{
+    font-size: 15.5px;
+    color: white;
+}
+.movieMenu>.col-3>.imgContent>a>img {
+    height: 13rem;
+    width: 9rem;
+    transition: 0.4s;
+}
+.movieMenu>.col-3 .imgContent:hover img {
+    transform:scale(1.1,1.1)
+    
+}
+

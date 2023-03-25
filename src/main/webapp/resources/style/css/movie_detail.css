@@ -1,0 +1,191 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #001232;
+}
+.breadcrumbContent>.col>nav{
+    width: 100%;
+}
+.breadcrumbContent>.col>nav>ol{
+    background-color: #001232;
+}
+.breadcrumbContent>.col>nav>ol>li>a{
+    color: white;
+}
+.headerContent>.col>h4{
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+}
+
+.rateMovie:not(:checked)>label {
+    width: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 21px;
+    color: #ffd84a;
+    margin-bottom: 0;
+    line-height: 21px;
+}
+
+.rateMovie:not(:checked)>label:before {
+    content: '\2605';
+}
+
+div#nz-div {
+    border-bottom: 2px solid #032055;
+    margin-bottom: 10px;
+    display: block;
+}
+ 
+#nz-div h3.tde {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+    display: inline-block;
+}
+ 
+#nz-div h3.tde :after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 20px solid #032055;
+    border-bottom: 0px solid transparent;
+    border-right: 0 solid transparent;
+    position: absolute;
+    top: 0px;
+    right: -20px;
+}
+ 
+#nz-div h3.tde span {
+    background: #032055;
+    padding: 10px 20px 8px 20px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+.bodyContent>.col-3{
+    max-width: 13rem;
+}
+.buttonBuyTicket{
+    background-image: -webkit-linear-gradient(169deg, #ff4343 0%, #aa52a1 37%, #5560ff 83%);
+    color: white;
+}
+.buttonBuyTicket:hover{
+    box-shadow: 0px 10px 15px 0px rgb(59 55 188 / 50%);
+    color: white
+}
+.youVote>.col>button{
+    background-color: #7d78ff;
+    color: white
+}
+.calendar>h6,.descriptionMovie>.col>h6,.voteMovie>.col>h6{
+    color: white;font-size: 18px;
+    font-family: monospace;font-weight: bolder;
+}
+.descriptionMovie>.col>p{
+    color: white;
+}
+.calendar>.row>.col>button{
+    border: 1px solid white;
+    color: white;
+}
+.movieRelated>.col>h5{
+    text-transform: uppercase;
+    font-family: monospace;font-size: 18px;
+    color: white;
+}
+.viewAll{
+    transform: translateY(-4rem);
+}
+.viewAll>.col>button{
+    border: 1px solid white;
+    color: white;
+}
+.viewAll>.col>button:hover,
+.calendar>.row>.col>button:hover{
+    border: 1px solid #31d7a9;
+    color: #31d7a9;
+}
+
+.showDate,.calendar>form>.row>.col-6>.form-group>select{
+    background-color: #001232;
+    border: 1px solid #032055;
+    color: white;
+}
+
+.rate {
+    float: right;
+    padding: 0 10px 0 0;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float: right;
+    width: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 25px;
+    color:#ccc;
+	margin-bottom: 0;
+	line-height: 21px;
+}
+.rate:not(:checked) > label:before {
+    content: '\2605';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+.youRate{
+    transform: translateX(-23rem);
+}
+.youVote>.col>.form-group>textarea{
+    background-color: #001232;
+    border: 1px solid white;
+    color: white;
+}
+.movies>.col-2 .imgContent>a>img {
+    height: 13rem;
+    width: 9rem;
+    transition: 0.4s;
+}
+
+.movies>.col-2 .imgContent:hover img {
+    opacity: 0.5;
+    transform:scale(1.1,1.1)
+    
+}
+.movies>.col-2>.card-body>a:hover h5{
+    color: #31d7a9;
+}
+
+.movies>.col-2>.card-body {
+    height: 7rem;
+}
+
+.movies>.col-2>.card-body>a>h5 {
+    font-size: 15.5px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.movies>.col-2>.card-body>a:hover {
+    text-decoration: none;
+}

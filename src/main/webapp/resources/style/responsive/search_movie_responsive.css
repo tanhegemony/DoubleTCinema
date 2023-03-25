@@ -1,0 +1,84 @@
+@media only screen and (max-width: 1200px){
+    .content1>.col-4>p,.sortBy>form>.form-inline>label,
+    .sortBy>form>.form-inline>select,
+    .displayBy>form>.form-inline>label,
+    .displayBy>form>.form-inline>select,
+    .movies>.col-3>.card-body>a>h5{
+        font-size: 15px;
+    }
+    .movies>.col-4 .imgContent>a>img,
+    .movies>.col-3 .imgContent>a>img {
+        height: 11rem;
+        width: 8rem;
+    }
+    .viewMore>.col>h5{
+        font-size: 17px;
+    }
+
+}
+@media only screen and (max-width: 991px){
+    .movies>.col-4{
+        min-width: 50%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .elementOther{
+        display: none;
+    }
+}
+@media only screen and (max-width: 580px){
+    .table td{
+        padding: 2px;
+    }
+    .movies{
+        justify-content: center;
+    }
+    .movies>.col-3{
+        min-width: 30%;
+
+    }
+    .sortBy>form>.form-inline{
+        display: inline-block;
+    }
+    .displayBy>form>.form-inline{
+        display: inline-block;
+    }
+
+}
+@media only screen and (max-width: 480px){
+    .movies>.col-4{
+        min-width: 80%;
+    }
+    .elementOther{
+        display: block;
+    }
+    .movies>.col-3{
+        min-width: 50%;
+
+    }
+    .content1>.col-4>p,.sortBy>form>.form-inline>label,
+    .sortBy>form>.form-inline>select,
+    .displayBy>form>.form-inline>label,
+    .displayBy>form>.form-inline>select,
+    .movies>.col-3>.card-body>a>h5{
+        font-size: 13px;
+    }
+    .viewMore>.col>h5{
+        font-size: 15px;
+    }
+    .content1>.col-4{
+        min-width: 100%;
+    }
+    .displayBy,.sortBy{
+        min-width: 50%;
+    }
+}
+@media only screen and (max-width: 380px){
+    .movies>.col-4{
+        min-width: 100%;
+    }
+    .movies>.col-3{
+        min-width: 50%;
+
+    }
+}

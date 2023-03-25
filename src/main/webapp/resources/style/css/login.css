@@ -1,0 +1,53 @@
+.imageLogin{
+    background-color: #001232;
+}
+.imageLogin>img{
+    width: 100%;height: 39.05rem;
+}
+.contentLogin{
+    background-color: #eeebeb;
+}
+.logoLogin{
+    margin-top: 4rem;
+}
+.logoLogin>.col>a>h6{
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #001232;
+    margin-top: 1rem;
+}
+.logoLogin>.col>a:hover{
+    text-decoration: none;
+}
+
+.logoLogin>.col>a>img{
+    width: 5%;
+}
+.formLogin>.col-6>
+form>.form-group>label{
+    font-weight: 500;
+}
+.formLogin>.col-6>
+form>.form-group>input{
+    background-color: #eeebeb;
+    border: 2px solid #001232;color: black;
+}
+.formLogin>.col-6>
+form>.row>.col-6>.form-check>label{
+    font-style: italic;
+}
+.formLogin>.col-6>
+form>.row>.col-6>a{
+    color: #001232;font-weight: bold;
+}
+.buttonLogin>.col>button{
+    width: 100%;
+    background-color: #001232;
+    color: white;
+}
+.register{
+    margin-top: 6rem;
+}
+.register>.col>a{
+    color: #001232;font-style: italic;
+}

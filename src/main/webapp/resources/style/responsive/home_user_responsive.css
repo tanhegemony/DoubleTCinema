@@ -1,0 +1,99 @@
+@media only screen and (max-width: 1200px){
+    .content1>.col-3{
+        min-width: 35%;
+    }
+    .content1>.col-9{
+        max-width: 65%;
+        transform: translateY(5rem);
+    }
+    .movies>.col-2>.imgContent>a>img {
+        height: 14rem;
+    }
+    .content1>.col-3>h5 {
+        font-size: 15px;
+    }
+    #nz-div-2 h3.tde {
+        font-size: 15px;
+    }
+    .content2>.extraView>.col>a,
+    .content3>.extraView>.col>a {
+        font-size: 13px;
+    }
+    .viewDetail,.buyTicket {
+        font-size: 13px;
+    }
+    .movies>.col-2>.card-body>a>h5 {
+        font-size: 15px;
+    }
+    .nameContent>.col>p{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .content1{
+        justify-content: center;
+    }
+    .content1>.col-3{
+        min-width: 50%;
+    }
+    .content1>.col-9{
+        min-width: 100%;
+        transform: translateY(0rem);
+    }
+    .movies>.col-2{
+        min-width: 25%;
+    }
+    .content4>.bodyContent>.col-6>.row>.col-6{
+        min-width: 100%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .content1>.col-3{
+        min-width: 60%;
+    }
+    .movies>.col-2{
+        min-width: 33%;
+    }
+
+}
+@media only screen and (max-width: 580px){
+    .content1>.col-3{
+        min-width: 80%;
+    }
+    .movies{
+        justify-content: center;
+    }
+    .movies>.col-2{
+        min-width: 40%;
+    }
+}
+@media only screen and (max-width: 480px){
+    .content1>.col-3>h5,
+    #nz-div-2 h3.tde,
+    .content2>.extraView>.col>a,
+    .content3>.extraView>.col>a,
+    .movies>.col-2>.card-body>a>h5,
+    .nameContent>.col>p {
+        font-size: 13px;
+    }
+    .viewDetail,.buyTicket {
+        font-size: 12px;
+    }
+    figure.snip0018 h2 {
+        font-size: 15px;
+    }
+    .content1>.col-3{
+        min-width: 100%;
+    }
+    .movies{
+        justify-content: center;
+    }
+    .movies>.col-2{
+        min-width: 50%;
+        padding-right: 1px;
+        padding-left: 1px;
+    }
+    .content4>.bodyContent>.col-6{
+        min-width: 100%;
+    }
+}

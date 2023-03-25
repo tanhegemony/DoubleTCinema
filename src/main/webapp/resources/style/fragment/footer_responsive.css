@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1200px){
+    .footer>.row>.col-3>h6{
+        font-size: 17px;
+    }
+    .footer>.row>.col-3>a,.footer4>p,.footer4>p>a,.footer>.row>.col>p{
+        font-size: 15px;
+    }
+    
+}
+@media only screen and (max-width: 991px){
+    .footer3>a{
+        padding-right: 0.5rem;
+    }
+}
+@media only screen and (max-width: 767px){
+    .footer1,.footer2,.footer3,.footer4{
+        min-width: 32%;
+    }
+    .footer3>a{
+        padding-right: 0rem;
+    }
+    .footerBanner{
+        height: 100px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .footer1,.footer2,.footer3,.footer4{
+        min-width: 50%;
+    }
+    .footer>.row>.col-3>h6{
+        font-size: 15px;
+    }
+    .footer>.row>.col-3>a,.footer4>p,.footer4>p>a,.footer>.row>.col>p{
+        font-size: 13px;
+    }
+    .footerBanner{
+        height: 80px;
+    }
+}

@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1200px){
+    .menu1>.row>.col>.nav>li>a,.userLogin>.dropdown>button,
+    .userLogin>.dropdown>.dropdown-menu>a{
+        font-size: 15px;
+    }
+    .header>.row>.col-7>form>.form-inline>input{
+        width: 85%;
+    }
+    .search{
+        max-width: 45%;
+    }
+    .menu1{
+        min-width: 35%;
+    }
+}
+@media only screen and (max-width: 991px){
+    .logo{
+        min-width: 25%;
+    }
+    .search{
+        max-width: 60%;
+    }
+    .menu1{
+        margin-top: 0rem;
+        min-width: 100%;
+    }
+    .menu1>.row>.col>.nav{
+        justify-content: right;
+    }
+}
+@media only screen and (max-width: 580px){
+    .logo{
+        min-width: 50%;
+    }
+    .search{
+        min-width: 100%;
+        transform: translateY(-1rem);
+    }
+    .menu1{
+        margin-top: 0rem;
+        min-width: 100%;
+    }
+    .menu1>.row>.col>.nav{
+        justify-content: right;
+    }
+}
+@media only screen and (max-width: 480px){
+    .header>.row>.col-7>form>.form-inline>input{
+        width: 84%;
+    }
+    .menu1>.row>.col>.nav>li>a,.userLogin>.dropdown>button,
+    .userLogin>.dropdown>.dropdown-menu>a{
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,89 @@
+@media only screen and (max-width: 1200px){
+    .breadcrumbContent>.col>nav>ol>li>a,
+    .contentTicketMovie>.table>tbody>.element>th,
+    .title-comm .title-holder,.backBooking,.nextBooking,.infoCustomer>.row>.col-6>.form-group>label,
+    .infoCustomer>.row>.col-6>.form-group>label,
+    .infoCustomer>.row>.col>.form-group>label,
+    .infoCustomer>.row>.col-6>label,
+    .infoCustomer>form>.row>.col>.form-inline>label,
+    .row>.col>.form-group>label,
+    .clock>.col>div>span,
+    .infoCustomer>.row>.col-6>.form-group>input,
+    .infoCustomer>.row>.col>.form-group>select,
+    .infoCustomer>.row>.col-6>.form-check-inline>input,
+    .infoCustomer>.row>.col>.form-group>textarea,
+    .infoCustomer>form>.row>.col>.form-inline>input,
+    .row>.col>.form-group>textarea,
+    .infoCustomer>form>.row>.col>.form-inline>span,
+    .applyCode
+    {
+        font-size: 15px;
+    }
+    .headerContent>.col>h4{
+        font-size: 17px;
+    }
+    .ticketInfo{
+        max-width: 35%;
+    }
+    .contentTicketMovie{
+        min-width: 100%;
+    }
+    .imageTicketMovie{
+        min-width: 50%;
+    }
+}
+@media only screen and (max-width: 991px){
+    .infoCustomer{
+        min-width: 100%;
+    }
+    .ticketInfo{
+        min-width: 50%;
+
+    }
+    .bodyCheckout{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 767px){
+
+    .ticketInfo{
+        min-width: 60%;
+
+    }
+}
+@media only screen and (max-width: 480px){
+    .breadcrumbContent>.col>nav>ol>li>a,
+    .contentTicketMovie>.table>tbody>.element>th,
+    .title-comm .title-holder,.backBooking,.nextBooking,.infoCustomer>.row>.col-6>.form-group>label,
+    .infoCustomer>.row>.col-6>.form-group>label,
+    .infoCustomer>.row>.col>.form-group>label,
+    .infoCustomer>.row>.col-6>label,
+    .infoCustomer>form>.row>.col>.form-inline>label,
+    .row>.col>.form-group>label,
+    .clock>.col>div>span,
+    .infoCustomer>.row>.col-6>.form-group>input,
+    .infoCustomer>.row>.col>.form-group>select,
+    .infoCustomer>.row>.col-6>.form-check-inline>input,
+    .infoCustomer>.row>.col>.form-group>textarea,
+    .infoCustomer>form>.row>.col>.form-inline>input,
+    .row>.col>.form-group>textarea,
+    .infoCustomer>form>.row>.col>.form-inline>span,
+    .applyCode{
+        font-size: 13px;
+    }
+    .headerContent>.col>h4{
+        font-size: 15px;
+    }
+
+    .ticketInfo{
+        min-width: 80%;
+    }
+}
+@media only screen and (max-width: 380px){
+    .infoCustomer>.row>.col-6{
+        min-width: 100%;
+    }
+    .clock{
+        transform: translateY(0rem);
+    }
+}

@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1200px){
+    .film>.dropdown>.submenu{
+    }
+    .submenu>.row>.col>a{
+        font-size: 15px;
+    }
+    .menu>.nav>li>a,
+    .menu>.nav>li>.dropdown>a{
+        font-size: 15px;
+    }
+    .movieMenu>.col-3>.card>a>img{
+        max-height: 12rem;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .menu>.nav>li {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+    .film{
+        display: none;
+    }
+    .less767px{
+        display: block;
+    }
+}
+@media only screen and (max-width: 480px){
+    .submenu>.row>.col>a{
+        font-size: 13px;
+    }
+    .menu>.nav>li>a,
+    .menu>.nav>li>.dropdown>a{
+        font-size: 13px;
+    }
+    .menu>.nav>li{
+        width: 100%;
+    }
+}

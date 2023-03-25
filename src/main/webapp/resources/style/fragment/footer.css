@@ -1,0 +1,27 @@
+.footer{
+    background-color: #032055;
+}
+.footer>.row>.col-3>h6{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+}
+.footer>.row>.col-3>a{
+    color: white;
+}
+.footer3>a{
+    padding-right: 1rem;
+}
+.footer4>p{
+    color: white;
+}
+.footer4>p>a{
+    color: white;
+}
+.footer>.row>.col>p{
+    color: white;
+}
+.footerBanner{
+    height: 150px;
+}

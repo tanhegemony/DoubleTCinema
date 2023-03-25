@@ -1,0 +1,179 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #001232;
+}
+
+.breadcrumbContent>.col>nav{
+    width: 100%;
+}
+.breadcrumbContent>.col>nav>ol{
+    background-color: #001232;
+}
+.breadcrumbContent>.col>nav>ol>li>a{
+    color: white;
+}
+.headerContent>.col>h4{
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+}
+
+.chooseSeat>p{
+    color: white
+}
+.imgScreen{
+    margin-bottom: 2rem;
+}
+.noteSeat>.col-3>.box{
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+}
+.canChoose{
+    background-color: #032055;
+    border: 1px solid #032055;
+}
+.canNotChoose{
+    background-color: gray;
+     border: 1px solid gray;
+}
+.seatChoosing{
+    border: 1px solid #31d7a9;
+    background-color: #31d7a9;
+    border-radius: 20px; 
+}
+
+
+.noteSeat>.col-3>i{
+    color: white;
+}
+
+.boxes{
+    display: grid;
+    
+    color: white;
+    background-color: #001232;
+    border-radius: 2px;
+    padding: 20px 40px;
+    grid-gap: 10px;
+}
+.main>b{
+    color: white;
+}
+.items {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #032055;
+    background-color: #032055;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.items:hover {
+    transform: scale(1.05);
+}
+
+.activeSeat {
+    color: white;
+    background-color: #31d7a9;
+    border-color: #31d7a9;
+    border-radius: 20px;
+}
+.buyed {
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+.notChoose{
+    background-color: gray;
+    color: #032055;
+    border: 1px solid gray; 
+}
+
+.title-comm {
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    background-color: #001232;
+    text-align: center;
+}
+
+h3.title-comm:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+    border-top: 2px solid #032055;
+    z-index: 1;
+    display: block;
+}
+
+.title-comm .title-holder {
+    text-transform: uppercase;
+    min-width: 100px;
+    height: 45px;
+    background-color: #032055;
+    height: auto;
+    line-height: 45px;
+    padding: 0px 20px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    display: inline-block;
+}
+
+.title-holder:before {
+    content: "";
+    position: absolute;
+    right: -15px;
+    border-width: 0px;
+    bottom: 0px;
+    border-style: solid;
+    border-color: #032055 transparent;
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 23px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-left: 15px solid #032055;
+}
+
+.title-holder:after {
+    content: "";
+    position: absolute;
+    left: -15px;
+    border-width: 0px;
+    bottom: 0px;
+    border-style: solid;
+    border-color: #032055 transparent;
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 23px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-right: 15px solid #032055;
+}
+.ticketInfo>.row{
+    background-color: #032055;
+}
+.nextBooking{
+    background-image: -webkit-linear-gradient(169deg, #ff4343 0%, #aa52a1 37%, #5560ff 83%);
+    color: white;
+}
+.backBooking,.backBooking:hover{
+    background-color: #d80027; 
+    color: white;
+}
+.nextBooking:hover{
+    box-shadow: 0px 10px 15px 0px rgb(59 55 188 / 50%);
+    color: white
+}

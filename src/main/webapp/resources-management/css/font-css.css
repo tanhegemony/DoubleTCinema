@@ -1,0 +1,3 @@
+*:not(i):not(.input-group-text):not(.icon-menu){
+    font-family: inherit !important;
+}

@@ -1,0 +1,194 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #001232;
+}
+
+.breadcrumbContent>.col>nav{
+    width: 100%;
+}
+.breadcrumbContent>.col>nav>ol{
+    background-color: #001232;
+}
+.breadcrumbContent>.col>nav>ol>li>a{
+    color: white;
+}
+.rateMovie:not(:checked)>label {
+    width: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 21px;
+    color: #ffd84a;
+    margin-bottom: 0;
+    line-height: 21px;
+}
+
+.rateMovie:not(:checked)>label:before {
+    content: '\2605';
+}
+
+
+.title-comm {
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    background-color: #001232;
+    text-align: center;
+}
+
+h3.title-comm:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+    border-top: 2px solid #032055;
+    z-index: 1;
+    display: block;
+}
+
+.title-comm .title-holder {
+    text-transform: uppercase;
+    min-width: 100px;
+    height: 45px;
+    background-color: #032055;
+    height: auto;
+    line-height: 45px;
+    padding: 0px 20px;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    display: inline-block;
+}
+
+.title-holder:before {
+    content: "";
+    position: absolute;
+    right: -15px;
+    border-width: 0px;
+    bottom: 0px;
+    border-style: solid;
+    border-color: #032055 transparent;
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 23px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-left: 15px solid #032055;
+}
+
+.title-holder:after {
+    content: "";
+    position: absolute;
+    left: -15px;
+    border-width: 0px;
+    bottom: 0px;
+    border-style: solid;
+    border-color: #032055 transparent;
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 23px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-right: 15px solid #032055;
+}
+
+.rate {
+    float: right;
+    padding: 0 10px 0 0;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float: right;
+    width: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 25px;
+    color:#ccc;
+	margin-bottom: 0;
+	line-height: 21px;
+}
+.rate:not(:checked) > label:before {
+    content: '\2605';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+.movies>.col-6 .imgContent>a>img{
+    height: 13rem;
+    width: 9rem;
+    transition: 0.4s;
+}
+
+.movies>.col-6 .imgContent:hover img {
+    opacity: 0.5;
+    transform:scale(1.1,1.1)
+    
+}
+.imgReviewOther>.col-6 a:hover img{
+    opacity: 0.5;
+}
+.imgReviewOther>.col-6>a>img{
+    transition: 0.4s;
+}
+.infoPreview>h5,.rateMovie,.view>p,
+.youVote>.col>label,
+.descriptionPreview>.col>p,
+.reviewOther>.col>p>a,.account>b,
+.upTime>i,
+.contentDescription>p{
+    color: white;
+}
+.vote1{
+    display: none;
+}
+.like>button{
+    background-color: #2d86ff;
+    color: white;
+}
+.like>button:hover{
+    background-color: white;
+    color: #2d86ff;
+}
+.youVote>.col>textarea{
+    width: 100%; 
+    border: 1px solid #032055;
+    background-color: #001232;
+    color: white;
+}
+.youVote>.col>button{
+    background-color: #7d78ff;
+    color: white
+}
+.reviewOther>.col>h5{
+    color: #31d7a9;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.account>img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+}
+.reviewOther>.col>p>a:hover{
+    color: #31d7a9;
+}

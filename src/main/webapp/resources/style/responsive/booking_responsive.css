@@ -1,0 +1,85 @@
+@media only screen and (max-width: 1200px){
+    .breadcrumbContent>.col>nav>ol>li>a,
+    .tableContent>.col-7>form>.row>.col>h5,
+    thead>tr>th,
+    .table-secondary>th,
+    .contentTicketMovie>.table>tbody>.element>th,
+    .title-comm .title-holder{
+        font-size: 15px;
+    }
+    .headerContent>.col>h4{
+        font-size: 17px;
+    }
+    tbody>tr>td,
+    .table-secondary>td{
+        font-size: 13px;
+    }
+    .ticketInfo{
+        max-width: 35%;
+    }
+    .tableContent>.col-7{
+        min-width: 65%;
+    }
+    .contentTicketMovie{
+        min-width: 100%;
+    }
+    .imageTicketMovie{
+        min-width: 50%;
+    }
+}
+@media only screen and (max-width: 991px){
+    .quantity>.form-inline>input{
+        width: 5rem;
+    }
+    .breadcrumbContent>.col>nav{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .tableContent>.col-7{
+        min-width: 100%;
+    }
+    .ticketInfo{
+        min-width: 50%;
+    }
+    .breadcrumbContent>.col>nav{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 580px){
+    .quantity{
+        width: 20rem;
+    }
+    .ticketInfo{
+        min-width: 60%;
+    }
+    .breadcrumbContent>.col>nav{
+        width: 65%;
+    }
+}
+@media only screen and (max-width: 480px){
+    .quantity{
+        min-width: 13rem;
+    }
+    .breadcrumbContent>.col>nav>ol>li>a,
+    .tableContent>.col-7>form>.row>.col>h5,
+    thead>tr>th,
+    .table-secondary>th,
+    .contentTicketMovie>.table>tbody>.element>th,
+    .title-comm .title-holder{
+        font-size: 13px;
+    }
+    .headerContent>.col>h4{
+        font-size: 15px;
+    }
+    tbody>tr>td,
+    .table-secondary>td{
+        font-size: 12px;
+    }
+    .ticketInfo{
+        min-width: 80%;
+    }
+    .breadcrumbContent>.col>nav{
+        width: 100%;
+    }
+}

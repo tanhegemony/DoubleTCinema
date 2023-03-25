@@ -1,0 +1,120 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #001232;
+}
+
+.header>.col>p {
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+}
+.calendarMovie>.col>ul>li>form>button{
+    background-color: #001232;
+    color: white;
+    border: 1px solid #1c3666;
+    text-transform: uppercase;
+}
+.calendarMovie>.col>ul>li>form>.active{
+    background-color: #032055;
+    color: white;
+    border: 1px solid #032055;
+}
+.breadcrumb {
+    background-color: #001232;
+}
+
+.breadcrumbContent>.col>nav {
+    width: 100%;
+}
+
+.breadcrumbContent>.col>nav>ol>li>a {
+    color: white;
+}
+.cinemaFollow>.col-4>button{
+    height: 7rem;
+}
+.chooseCalendar>.col>button{
+    color: white;border: 1px solid #032055;
+}
+.chooseCalendar>.col>button:hover{
+    border: 1px solid #31d7a9;
+}
+.content>.col-6>a,.filmFollow>.col>a,.contentCinemaFollow>.col-6>a{
+    text-decoration: none;
+}
+.content>.col-6>a>b,.filmFollow>.col>a>b,.contentCinemaFollow>.col-6>a>b{
+    color: white;
+}
+.content>.col-6>.row>.col-4 a:hover img,.filmFollow>.col>.row>.col-2 a:hover img,
+.contentCinemaFollow>.col-6>.row>.col-4 a:hover img,.chooseFilm>.col-2 a:hover img{
+    opacity: 0.5;
+    transform:scale(1.1,1.1);
+}
+.content>.col-6>.row>.col-4>a>img,.filmFollow>.col>.row>.col-2>a>img,
+.contentCinemaFollow>.col-6>.row>.col-4>a>img,.chooseFilm>.col-2>a>img{
+     height: 13rem;
+    width: 9rem;
+    transition: 0.4s;
+}
+.content>.col-6>.row>.col-8>i,.filmFollow>.col>.row>.col-10>i,
+.contentCinemaFollow>.col-6>.row>.col-8>i{
+    color: white;
+    text-decoration: underline;
+}
+.content>.col-6>.row>.col-8>button,.filmFollow>.col>.row>.col-10>button,
+.contentCinemaFollow>.col-6>.row>.col-8>button{
+    color: white;border: 1px solid white;
+}
+.content>.col-6>.row>.col-8>button:hover,.filmFollow>.col>.row>.col-10>button:hover,
+.contentCinemaFollow>.col-6>.row>.col-8>button:hover{
+    color: #31d7a9;
+}
+
+.cinemaFollow>.col-4>button{
+    border: 1px solid #032055;color: white;
+    padding: 10px 10px 10px 10px;
+}
+.address{
+    text-decoration: underline;
+}
+.cinemaFollow>.col-4>button>.cinema>a{
+    color: #31d7a9;
+}
+
+div#nz-div {
+    border-bottom: 2px solid #31d7a9;
+    margin-bottom: 10px;
+    display: block;
+}
+ 
+#nz-div h3.tde {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+    display: inline-block;
+}
+ 
+#nz-div h3.tde :after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 20px solid #31d7a9;
+    border-bottom: 0px solid transparent;
+    border-right: 0 solid transparent;
+    position: absolute;
+    top: 0px;
+    right: -20px;
+}
+ 
+#nz-div h3.tde span {
+    background: #31d7a9;
+    padding: 10px 20px 8px 20px;
+    color: #001232;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+ 

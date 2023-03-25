@@ -1,0 +1,105 @@
+@media only screen and (max-width: 1200px){
+    .content1>.col-4>p,.sortBy>form>.form-inline>label,
+    .sortBy>.form-inline>select,
+    .displayBy>form>.form-inline>select,
+    .movies>.col-2>.card-body>a>h5,
+    .movies>.col-4>.card-body>a>h5,
+    .movieByItem>.col>ul>li>button,
+    .filter>.row>.col>p,
+    .filter>.row>.col>.form-check>label{
+        font-size: 15px;
+    }
+    .movies>.col-4 .imgContent>a>img,
+    .movies>.col-2 .imgContent>a>img {
+        height: 11rem;
+        width: 8rem;
+    }
+    .filter>h5,.movieRelated>.col>h5{
+        font-size: 17px;
+    }
+
+}
+@media only screen and (max-width: 991px){
+    .movies>.col-4{
+        min-width: 50%;
+    }
+    .movies>.col-2{
+        min-width: 25%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .contentBody{
+        justify-content: center;
+    }
+    .movies>.col-2{
+        min-width: 33%;
+    }
+    .filter{
+        min-width: 50%;
+        margin-bottom: 1rem;
+    }
+    .sortAndView{
+        min-width: 100%;
+        }
+}
+@media only screen and (max-width: 580px){
+    .movies{
+        justify-content: center;
+    }
+    .movies>.col-2{
+        min-width: 40%;
+    }
+    .sortBy>.form-inline{
+        display: inline-block;
+    }
+    .displayBy>form>.form-inline{
+        display: inline-block;
+    }
+
+}
+@media only screen and (max-width: 480px){
+    
+    .filter{
+        min-width: 60%;
+    }
+    .sortAndView{
+        margin-top: 1rem;
+        min-width: 100%;
+    }
+    .movies>.col-4{
+        min-width: 50%;
+    }
+    .content1>.col-4>p,.sortBy>form>.form-inline>label,
+    .sortBy>.form-inline>select,
+    .displayBy>form>.form-inline>select,
+    .movies>.col-2>.card-body>a>h5,
+    .movies>.col-4>.card-body>a>h5,
+    .movieByItem>.col>ul>li>button,
+    .filter>.row>.col>p,
+    .filter>.row>.col>.form-check>label{
+        font-size: 13px;
+    }
+    .filter>h5,.movieRelated>.col>h5{
+        font-size: 15px;
+    }
+    .sortBy{
+        min-width: 50%;
+    }
+}
+@media only screen and (max-width: 380px){
+    .movies>.col-4{
+        min-width: 100%;
+    }
+    .movies>.col-2{
+        min-width: 50%;
+
+    }
+    .sortBy,.nameBoss{
+        min-width: 100%;
+    }
+}
+@media only screen and (max-width: 320px){
+    .filter{
+        min-width: 80%;
+    }
+}
